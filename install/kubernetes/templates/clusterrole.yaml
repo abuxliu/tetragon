@@ -18,7 +18,6 @@ rules:
       - cilium.io
     resources:
       - tracingpolicies
-      - tracingpoliciesnamespaced
     verbs:
       - get
       - list
@@ -43,7 +42,6 @@ rules:
       - customresourcedefinitions
     resourceNames:
       - tracingpolicies.cilium.io
-      - tracingpoliciesnamespaced.cilium.io
     verbs:
       - update
       - get
